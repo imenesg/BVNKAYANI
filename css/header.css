@@ -1,0 +1,11 @@
+header{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    align-items: center;
+}
+header a{
+    margin: 0rem .5rem;
+    font-size: 1.5rem;
+}
