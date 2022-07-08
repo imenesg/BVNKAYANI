@@ -1,0 +1,49 @@
+.top {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+.top h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+.top img {
+  width: 100%;
+  max-width: 5rem;
+  margin-top: 1rem;
+}
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  height: calc(100vh - 18rem);
+}
+main ul,
+main ul li {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+main ul li {
+  flex-direction: row;
+  margin: 0.5rem 0;
+}
+main ul li span {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+}
+main ul li a {
+  border: solid 2px var(--color1);
+  padding: 0.5rem;
+}
